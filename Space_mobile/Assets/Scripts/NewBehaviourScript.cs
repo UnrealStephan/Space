@@ -5,18 +5,7 @@ using UnityEngine.UI;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-
     public bool building;
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
 
     void OnMouseEnter()
     {
@@ -28,7 +17,6 @@ public class NewBehaviourScript : MonoBehaviour
         {
             transform.GetChild(0).GetComponent<Image>().color = new Color(200/255.0f, 50/255.0f, 50/255.0f, 150/255.0f);
         }
-
     }
 
     void OnMouseExit()
