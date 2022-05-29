@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Backlight : MonoBehaviour
 {
+
+    public GameObject shopPanel;
+    
     void Start()
     {
         
@@ -12,7 +15,15 @@ public class Backlight : MonoBehaviour
 
     void Update()
     {
-        
+        if (shopPanel.active)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            shopPanel.SetActive(true);
+        }
     }
 
     void OnMouseEnter()
