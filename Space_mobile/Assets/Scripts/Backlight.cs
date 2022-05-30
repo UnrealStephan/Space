@@ -15,24 +15,21 @@ public class Backlight : MonoBehaviour
 
     void Update()
     {
-        if (shopPanel.active)
-        {
-            return;
-        }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            shopPanel.SetActive(true);
-        }
+    }
+
+    private void OnMouseDown()
+    {
+        shopPanel.SetActive(true);
     }
 
     void OnMouseEnter()
     {
-        transform.GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.03f);
+        transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.03f);
     }
 
     void OnMouseExit()
     {
-        transform.GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.0f);
+        transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.0f);
     }
 }
