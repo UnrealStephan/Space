@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class Backlight : MonoBehaviour
 {
 
-    public GameObject shopPanel;
-    
+    public New NW;
+    public GameObject ShopCell;
+
     void Start()
     {
         
@@ -20,7 +21,9 @@ public class Backlight : MonoBehaviour
 
     private void OnMouseDown()
     {
-        shopPanel.SetActive(true);
+        NW.Map.SetActive(false);
+        transform.GetChild(0).GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.0f);
+        ShopCell.GetComponentInChildren<Outline>().effectColor = Color.black;
     }
 
     void OnMouseEnter()
