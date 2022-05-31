@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3120861928816966672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6260298276558254411}
+  - component: {fileID: 7964494205889670012}
+  - component: {fileID: 1804480707898967167}
+  - component: {fileID: 3399872682148092055}
+  - component: {fileID: 8732561962844342473}
+  m_Layer: 0
+  m_Name: Starship1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6260298276558254411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120861928816966672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 537.7047, y: 510.4281, z: 313.95648}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7964494205889670012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120861928816966672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d34d6ee89291f43ad72ac6be2b7181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: Building
+  model: {fileID: 4300000, guid: 5c929a1e7e6053f499c799f0b76fc965, type: 3}
+  material: {fileID: 2100000, guid: e2fa279f5528abd4e9c9cab044813295, type: 2}
+  hp: 100
+  price: 0
+  speed: 0
+  shooting: 1
+  bullet: {fileID: 3870963208609958573, guid: ab5d853833e273e4aa9b0bd952c660fb, type: 3}
+  bullet_model: {fileID: 4300000, guid: 7684aa101ccc34e43b3a50a6a375c9b1, type: 3}
+  bullet_material: {fileID: 2100000, guid: e6c1410f3dcb18f4fbf8632a7990f246, type: 2}
+  bullet_damage: 5
+  bullet_speed: 300
+  bullet_boost: 0
+  shooting_range: 0
+  shooting_recharge: 2
+  objDetected: 1
+  beating: 0
+  b_damage: 0
+  b_range: 0
+  b_recharging: 0
+  explosion: 0
+  e_radius: 0
+  e_damage: 0
+  kamikadze: 0
+  k_damage: 0
+  k_explosion: 0
+  k_e_radius: 0
+  k_e_damage: 0
+--- !u!65 &1804480707898967167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120861928816966672}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &3399872682148092055
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120861928816966672}
+  m_Mesh: {fileID: 0}
+--- !u!23 &8732561962844342473
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120861928816966672}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
