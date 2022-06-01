@@ -303,7 +303,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7175758359490122356
 GameObject:
@@ -592,4 +592,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e73971dd4cf9447878471113deea75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shopPanel: {fileID: 0}
+  NW: {fileID: 0}
+  Spaceship_1_model: {fileID: 0}
