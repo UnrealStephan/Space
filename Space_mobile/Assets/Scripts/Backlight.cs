@@ -6,33 +6,30 @@ using UnityEngine.UI;
 public class Backlight : MonoBehaviour
 {
 
-    public GameObject shopPanel;
-    
+    public bool Busy = false;
+    public GameObject Shop;
+    public GameObject Map;
+
     void Start()
     {
-        
     }
 
     void Update()
     {
-        if (shopPanel.active)
+    }
+
+    private void OnMouseDown()
+    {
+        if (Busy == true)
         {
             return;
         }
-
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        else
         {
-            shopPanel.SetActive(true);
+            Instantiate(Shop.transform.GetComponent<New_spaceship>().Active_ship).transform.position = transform.GetChild(5).transform.position;
+            Busy = true;
+            Map.SetActive(false);
+            Shop.transform.GetComponent<New_spaceship>().Outline_removal();
         }
-    }
-
-    void OnMouseEnter()
-    {
-        transform.GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.03f);
-    }
-
-    void OnMouseExit()
-    {
-        transform.GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 0.0f);
     }
 }
