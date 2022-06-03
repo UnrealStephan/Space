@@ -71,4 +71,19 @@ public class New_spaceship : MonoBehaviour
             Map.SetActive(false);
         }
     }
+    public void Push_Button_3()
+    {
+        if (Button_3.transform.GetChild(0).GetComponent<Outline>().effectColor == new Color(0, 255, 0, 0.0f))
+        {
+            Outline_removal();
+            Button_3.transform.GetChild(0).GetComponent<Outline>().effectColor = new Color(0, 255, 0, 1.0f);
+            Map.SetActive(true);
+            Active_ship = Spaceship_3;
+        }
+        else
+        {
+            Button_3.transform.GetChild(0).GetComponent<Outline>().effectColor = new Color(0, 255, 0, 0.0f);
+            Map.SetActive(false);
+        }
+    }
 }
