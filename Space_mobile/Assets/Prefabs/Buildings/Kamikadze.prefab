@@ -132,9 +132,9 @@ MonoBehaviour:
   type: Building
   model: {fileID: 4300000, guid: d8cf9ba52095a4f4bb35e68774cfa634, type: 3}
   material: {fileID: 2100000, guid: e3ef4b4d386ba4f4fb22823cc66917a1, type: 2}
-  hp: 10
-  price: 150
-  speed: 10
+  hp: 25
+  price: 100
+  speed: 25
   shooting: 0
   bullet_model: {fileID: 0}
   bullet_material: {fileID: 0}
@@ -153,6 +153,19 @@ MonoBehaviour:
   k_explosion: 1
   k_e_radius: 5
   k_e_damage: 100
+  boss: 0
+  bullet_model_b: {fileID: 0}
+  bullet_material_b: {fileID: 0}
+  bullet_damage_b: 0
+  bullet_speed_b: 0
+  bullet_boost_b: 0
+  shooting_range_b: 0
+  shooting_rate_b: 0
+  shooting_queue_b: 0
+  shooting_recharge_b: 0
+  explosion_b: 0
+  e_radius_b: 0
+  e_damage_b: 0
   cell: {fileID: 0}
   bullet: {fileID: 3870963208609958573, guid: 1c14569fc9db3664892a70b0ddabbb9e, type: 3}
   e_prefab: {fileID: 729129493213314145, guid: cf0f10ce15e99024180aed4f20c0986e, type: 3}

@@ -16,6 +16,7 @@ public class Bullet : MonoBehaviour
     public int expl_radius;
     public int expl_damage;
     public bool disappeared = false;
+    public bool boss_bullet;
 
     private void Start()
     {
@@ -28,8 +29,15 @@ public class Bullet : MonoBehaviour
 
         transform.Translate(0, 0, speed * Time.deltaTime);
 
-        if ((transform.position.x >= 1500) || (transform.position.x <= -500))
-        { disappeared = true; Destroy(gameObject);}
+        if ((transform.position.x >= 1500) || (transform.position.x <= -150))
+        {
+            disappeared = true;
+            if (boss_bullet)
+            {
+                GameObject.Find("Canvas").GetComponent<Defeat>().lives -= 1; // Мегаснаряды босса сносят жизни!
+            }
+            Destroy(gameObject);
+        }
     }
 
     void OnCollisionEnter(Collision col)

@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.35f1 (18e4db7a9996) revision 1631451'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 15776 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/YaKakashka/Documents/GitHub/Space — копия
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58207
+Successfully changed project path to: C:/Users/YaKakashka/Documents/GitHub/Space — копия
+C:/Users/YaKakashka/Documents/GitHub/Space — копия
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.35f1 (18e4db7a9996)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/YaKakashka/Documents/GitHub/Space — копия/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   
+    VRAM:     3991 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001136 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.500 seconds
+Domain Reload Profiling:
+	ReloadAssembly (500ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (136ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.742 seconds
+Domain Reload Profiling:
+	ReloadAssembly (743ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1638 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2069.
+Total: 2.618700 ms (FindLiveObjects: 0.141700 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.345600 ms  DeleteObjects: 0.072600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png
+  artifactKey: Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_MetallicSmoothness.png using Guid(704376da483ef144db57a9c8a2b71253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2643f1c28a3fa8fa24a9c0c5341c50') in 0.056597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Specular.png
+  artifactKey: Guid(8bd81a54d971fde40be935b12150b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Specular.png using Guid(8bd81a54d971fde40be935b12150b42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976e221c623267694b9ec04bc72ea955') in 0.088870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png
+  artifactKey: Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Emission.png using Guid(7895bb88d21b82e4c86e0e53289c8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df792df0b0db948a536a3fcb7991cf6') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Worn_Overlay.png
+  artifactKey: Guid(a21c85d58efd2e7469071aa97d1fcba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Worn_Overlay.png using Guid(a21c85d58efd2e7469071aa97d1fcba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469e00b32be6d7695b61acdaed53833f') in 0.050928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
+  artifactKey: Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png using Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dd8b8a80ff4395b1e57d2dc6d52aa0') in 0.016451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png
+  artifactKey: Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Normal.png using Guid(50cd73a325d3a0145a19c956de7950a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b8488d90182f0c881a4dfebbb53f50') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
+  artifactKey: Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png using Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c1644c00ae5522a10f981aef4d305b') in 0.018012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
+  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d2746f2b90c20446f5ef1ac52c86e0') in 0.019623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
+  artifactKey: Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png using Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8162d0e23c5c5ee52ff8fa7fee863b2d') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Diffuse.png
+  artifactKey: Guid(420cc6358bb98b14caf85c30b914ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Diffuse.png using Guid(420cc6358bb98b14caf85c30b914ece7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdbc0cf315eeb04859ba62452d78ddb') in 0.060040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Black.png
+  artifactKey: Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Black.png using Guid(206a5b1f7176ecd4691948148171fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae2c59a885cdad27c249e85acd514d2') in 0.047749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png
+  artifactKey: Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/BonusContent/MissileBomb/Missile_Grey.png using Guid(da3c18cd4f90b7d48900ea3471d8d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2593bf4b97d90e35a5b8c7ebe9bc4be1') in 0.010563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Diffuse.psd
+  artifactKey: Guid(e98fe83139605724d93ee84168ce832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Diffuse.psd using Guid(e98fe83139605724d93ee84168ce832a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dc97257afcc884575a0425de303f6d') in 0.039200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Emission.png
+  artifactKey: Guid(ae74c807d9bc6074cb2de1010c666205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Emission.png using Guid(ae74c807d9bc6074cb2de1010c666205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2823401c94f5673ddaf4d0ace04fc39b') in 0.041672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Normal.png
+  artifactKey: Guid(fd54ee0a4021ad94d86d255f7926bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/Oxar Freighter/Textures/Oxar_Normal.png using Guid(fd54ee0a4021ad94d86d255f7926bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdbf1ff9b2464078dd72daab746b55e') in 0.047529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.138464 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Blue.png
+  artifactKey: Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Blue.png using Guid(eb9f71c288354cd419ac82ba188b1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f396ea18bc5bb1f49088b00c4511942') in 0.047308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Cyan.png
+  artifactKey: Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Cyan.png using Guid(3928818884a3a9c41a8d469459870822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cdfd1d0b5ed5a15b0380755cf15539') in 0.048932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Emission.png
+  artifactKey: Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Emission.png using Guid(e285b114efc2a1240b2b32966432623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58843ecbd4f24a4276622673c8512c1') in 0.040217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Green.png
+  artifactKey: Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Green.png using Guid(834cc5d6ac8c31641a2235a9d4682f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6e57149c6f5559b8579f9a2a9069d2') in 0.048680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask1.png
+  artifactKey: Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask1.png using Guid(48ecabd530ef79b458ed6f0e9196ddfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6573ce0259d60999d5edaaaa3eee42') in 0.047168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Grey.png
+  artifactKey: Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Grey.png using Guid(e80529d62d99b2a43a062d8434e9f4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cb7b2e45019e4dbc387e206efb6134') in 0.046213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219058 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask2.png
+  artifactKey: Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask2.png using Guid(eb091f20a993f1b4b87383a8a86d183f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4aee4b6618e5e6dffeb5ce2b0cb949') in 0.049273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Neutral.png
+  artifactKey: Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Neutral.png using Guid(f695ffcd972587c4bbeac051d94c35b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4af1f285c297c6d5f180de60720e304') in 0.048516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask3.png
+  artifactKey: Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/Masks/StarSparrow_Mask3.png using Guid(bb3b71277204e0048925dd90850a68a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5a30e85ef1b59080a7e826d1a0fae1') in 0.055374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Normal.png
+  artifactKey: Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Normal.png using Guid(c96423a02cfe8934286c58b144ca7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f279cba08f6c561392fb29b4c96284') in 0.052431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Purple.png
+  artifactKey: Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Purple.png using Guid(d1d3cc1b67fbc2146a520fd04ce86e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691775c5551067eb14d8ec9358fa84ce') in 0.055811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Orange.png
+  artifactKey: Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Orange.png using Guid(9910943c18579a249a5a2984fdb3f3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8aece1b4839dffc9cbcc4c2215c6c8') in 0.052301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png
+  artifactKey: Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_MetallicSmoothness.png using Guid(d3effaf83ec3f7e42ae598da93a72524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab704ccf13b3f4e2e1b0d790b5cb336') in 0.050277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Red.png
+  artifactKey: Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Red.png using Guid(32b3903d52de67640b19b1feb1b1e1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeae33db48c7194d3b2d399979f5442') in 0.048634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053658 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_White.png
+  artifactKey: Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_White.png using Guid(07e73c410e4389545a8cd3e12dee52b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718ae16f74e0a4c9254879d79f6b9986') in 0.046371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Yellow.png
+  artifactKey: Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/StarSparrow/Textures/StarSparrow_Yellow.png using Guid(ca4edc86c640b514c83fdd5a9c439dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9299e95d62ffe4bca8d23c42349d8a4') in 0.048851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_AO.tga
+  artifactKey: Guid(591205c8d0bed4f46a15b5c11df8605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_AO.tga using Guid(591205c8d0bed4f46a15b5c11df8605a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e410c6f1b3ecb1dc9c2599461acb522c') in 0.046225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_glow.tga
+  artifactKey: Guid(b12ccef270e4c4d448a6a2d7aea6b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_glow.tga using Guid(b12ccef270e4c4d448a6a2d7aea6b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76479d2a1b69fdfb85ab1459dd37bfe5') in 0.039131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_military_albedo.tga
+  artifactKey: Guid(adc8c1f9e77515449bdc5434d1456adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_military_albedo.tga using Guid(adc8c1f9e77515449bdc5434d1456adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974a2b3af8bcdddf7ae02917ad4d38bf') in 0.038588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_military_metal.tga
+  artifactKey: Guid(fb5543e18c140104298c3f564c815570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_military_metal.tga using Guid(fb5543e18c140104298c3f564c815570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47063c48b00cbc0fe1b483f341e3c22') in 0.048901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_normal.tga
+  artifactKey: Guid(cbbb675c3d0a57946a517cc2c5a8e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_normal.tga using Guid(cbbb675c3d0a57946a517cc2c5a8e96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40131d8d22f45e35d6d0dcc5cd03721d') in 0.045937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_toy_albedo.tga
+  artifactKey: Guid(e68f58eda08a2ae498c29b83faf82375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_toy_albedo.tga using Guid(e68f58eda08a2ae498c29b83faf82375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8af916c1f18f1c00073aac5195a2f03') in 0.048039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109554 seconds.
+  path: Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_toy_metal.tga
+  artifactKey: Guid(73ba638a5c540d94b92c811800781838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials & Meshs/UAV Trident/TextureMaps/UAV Trident_toy_metal.tga using Guid(73ba638a5c540d94b92c811800781838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85f3a8b33ac31023410e60480e39f6b') in 0.038778 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.8 MB.
+System memory in use after: 42.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 3.897700 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.123400 ms MarkObjects: 3.496100 ms  DeleteObjects: 0.022700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.8 MB.
+System memory in use after: 42.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 3.552800 ms (FindLiveObjects: 0.207100 ms CreateObjectMapping: 0.055500 ms MarkObjects: 3.267000 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
